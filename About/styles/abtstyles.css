@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    margin: 0;
+    background: #000;
+    color: white;
+
+
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+
+  h2{
+font-size: 30px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+   img{
+    width: 100%;
+    height: 320px;
+   }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.411);
+    margin: 8px;
+  }
+
+  .section-header{
+    font-size: 60px;
+
+  }
+  
+  .about-section {
+    border: solid 5px white;
+    padding: 30px 50px;
+    border-radius: 999px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 300px;
+    max-width: 800px;
+    margin:auto;
+    margin-top: 50px;
+    transition: 0.4s;
+    
+  }
+  .about-section:hover{
+    background-color: white;
+    color: black;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color:   white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
