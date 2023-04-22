@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+h1 {
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    background-color:white;
+    color: black;
+
+}
+input[type=subibmit] {
+    background-color: limegreen;
+    color:black;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(42, 236, 161);
+    border-radius: 50%;
+}
+.container {
+    border-radius: 30px;
+    background-color:black;
+    padding: 20px;
+    width: 500px;
+    margin: 50px;
+    display: flex;
+    background-image: url(./images/images\ \(2\).jpg);
+   
+}
+textarea {
+    height: 200px;
+}
+label{
+    color: white;
+}
+
+body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    font-family: 'Bruno Ace SC', cursive; 
+    background-image:url(./images/contact-us-communication-support-service-assistance-concept_53876-128103.avif);
+}
+footer{
+    background-color:white;
+    color: black;
+}
+div {
+    text-align: center;
+}
+.social-icons {
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    align-items: end;
+}
+
+
