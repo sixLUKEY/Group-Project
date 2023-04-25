@@ -18,6 +18,11 @@ body{
 
 
 }
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px
+}
 .navbar{
   display: flex;
   flex-direction: row;
@@ -33,7 +38,7 @@ body{
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bruno Ace SC', cursive;
   font-weight: 900;
   background: black;
   cursor: pointer;
@@ -90,9 +95,10 @@ html {
   }
 
   h2{
-font-size: 30px;
-    margin-top: 80px;
+   font-size: 30px;
+    margin-top: 30px;
     text-align: center;
+    margin-bottom: 30px;
   }
   
   *, *:before, *:after {
@@ -165,6 +171,7 @@ font-size: 30px;
     display: inline-block;
     padding: 8px;
     color: black;
+    font-family: 'Bruno Ace SC', cursive;
     background-color:   white;
     text-align: center;
     cursor: pointer;
@@ -193,7 +200,8 @@ font-size: 30px;
     margin: auto;
     padding: 40px;
     translate: 70px;
-    margin-top: 40px;
+    margin-top: 0;
+
     
 }
 .social-icons img {
@@ -230,7 +238,7 @@ font-size: 30px;
 footer{
     border-top: solid 2px gray;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .copyright{
     translate: 0 100px;
@@ -238,10 +246,12 @@ footer{
     font-weight: 900;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
+    margin-left: 30px;
 }
 
 .go-back-btn>button{
   width: 200px;
   height: 100px;
-  border: 2px 0 4px 8px 0 
+  border-radius: 999px;
+  
 }
