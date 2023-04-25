@@ -44,7 +44,7 @@ body{
     margin-top: 10px;
   }
 
-  .btn-1 {
+  .btn-1, .btn-2, .btn-3, .btn-4 {
     width: 130px;
     height: 40px;
     line-height: 42px;
@@ -52,13 +52,13 @@ body{
     border: none;
     background: rgb(0, 0, 0);
   }
-  .btn-1:hover {
+  .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover {
     color: #ffffff;
     background: transparent;
      box-shadow:none;
   }
-  .btn-1:before,
-  .btn-1:after{
+  .btn-1:before, .btn-2:before, .btn-3:before, .btn-4:before,
+  .btn-1:after, .btn-2:after, .btn-3:after, .btn-4:after{
     content:'';
     position:absolute;
     top:0;
@@ -68,120 +68,14 @@ body{
     background: #ffffff;
     transition:400ms ease all;
   }
-  .btn-1:after{
+  .btn-1:after, .btn-2:after, .btn-3:after, .btn-4:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
   }
-  .btn-1:hover:before,
-  .btn-1:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-
-  .btn-2 {
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    background: rgb(0, 0, 0);
-  }
-  .btn-2:hover {
-    color: #ffffff;
-    background: transparent;
-     box-shadow:none;
-  }
-  .btn-2:before,
-  .btn-2:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #ffffff;
-    transition:400ms ease all;
-  }
-  .btn-2:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .btn-2:hover:before,
-  .btn-2:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-  .btn-3 {
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    background: rgb(0, 0, 0);
-  }
-  .btn-3:hover {
-    color: #ffffff;
-    background: transparent;
-     box-shadow:none;
-  }
-  .btn-3:before,
-  .btn-3:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #ffffff;
-    transition:400ms ease all;
-  }
-  .btn-3:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .btn-3:hover:before,
-  .btn-3:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-  .btn-4 {
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    background: rgb(0, 0, 0);
-  }
-  .btn-4:hover {
-    color: #ffffff;
-    background: transparent;
-     box-shadow:none;
-  }
-  .btn-4:before,
-  .btn-4:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #ffffff;
-    transition:400ms ease all;
-  }
-  .btn-4:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .btn-4:hover:before,
-  .btn-4:hover:after{
+  .btn-1:hover:before, .btn-2:hover:before, .btn-3:hover:before, .btn-4:hover:before,
+  .btn-1:hover:after, .btn-2:hover:after, .btn-3:hover:after, .btn-4:hover:after{
     width:100%;
     transition:800ms ease all;
   }
@@ -235,14 +129,6 @@ body{
     /* align-items: center; */
   }
   
-  /* .steps {
-    align-items: center;
-  } */
-
-  /* section:nth-child(even){
-    align-items: end;
-    justify-content: flex-end;
-  } */
   
   .stepDiv{
     display: flex;
@@ -321,4 +207,99 @@ footer{
     font-weight: 900;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
+}
+
+.hovbtn, .hovbtnAlt{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hovbtn div, .hovbtnAlt div{
+  height: 20px;
+  width: 20px;
+  translate: 0 -30px;
+  border-radius: 5px;
+  transition: 0.3s;
+  /* transition: background-color 0.8s, scale 0.3s; */
+  border: solid 2px white;
+  background-color: white;
+  /* box-shadow: 0px 0px 5px 3px rgb(197, 197, 197); */
+  
+}
+
+
+.hovbtn div:hover, .hovbtnAlt div:hover{
+  scale: 1300%;
+  border: none;
+  border-radius: 5px;
+}
+
+.hov1:hover{
+  
+  scale: 10;
+	background-image: url(image/blackOnion.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: none;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.hov2:hover{
+  
+  scale: 10;
+	background-image: url(image/salt.png);
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.hov3:hover{
+  
+  scale: 10;
+	background-image: url(image/cook.png);
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.hov4:hover{
+  
+  scale: 10;
+	background-image: url(image/cheese.png);
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.hov5:hover{
+  
+  scale: 10;
+	background-image: url(image/oven.png);
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.hov6:hover{
+  
+  scale: 10;
+	background-image: url(image/lasagna.png);
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	content: none;
+  background-color: rgb(255, 255, 255);
 }
