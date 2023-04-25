@@ -132,7 +132,7 @@ font-size: 30px;
     max-height: 300px;
     max-width: 800px;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 80px;
     transition: 0.4s;
     
   }
@@ -238,4 +238,10 @@ footer{
     font-weight: 900;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
+}
+
+.go-back-btn>button{
+  width: 200px;
+  height: 100px;
+  border: 2px 0 4px 8px 0 
 }
